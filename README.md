@@ -2,7 +2,7 @@ from telegram import Update
 from telegram.ext import Updater, CommandHandler, CallbackContext
 
 # Remplacez "TOKEN" par le jeton d'authentification de votre bot
-TOKEN = "YOUR_TOKEN"
+TOKEN = "7080165589:AAHVqFT01QoFXFuNby8_sSYYVwsNs2LTxGQ"
 
 def start(update: Update, context: CallbackContext) -> None:
     update.message.reply_text(
